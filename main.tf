@@ -13,11 +13,9 @@ terraform {
 	
 
 	  backend "remote" {
-	    organization = "SREYO"
-	
-
+	 
 	    workspaces {
-	      name = "AWS_CLUSTER_DevTest"
+	      name = "testRepository1_managedorg"
 	    }
 	  }
 	
